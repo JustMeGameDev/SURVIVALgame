@@ -1,0 +1,22 @@
+Begin Object Class=/Script/Engine.AnimMontage Name="FP_Rifle_Shoot_Montage"
+   Begin Object Class=/Script/Engine.AnimDataModel Name="AnimationDataModel"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfo Name="SceneThumbnailInfo_1"
+   End Object
+   Begin Object Name="AnimationDataModel"
+      PlayLength=0.266667
+      FrameRate=(Numerator=30)
+      NumberOfFrames=8
+      NumberOfKeys=9
+   End Object
+   Begin Object Name="SceneThumbnailInfo_1"
+   End Object
+   BlendIn=(BlendTime=0.010000)
+   CompositeSections(0)=(SectionName="Default",LinkedMontage=/Script/Engine.AnimMontage'"FP_Rifle_Shoot_Montage"',SegmentIndex=0,SegmentLength=0.266667,LinkedSequence=/Script/Engine.AnimSequence'"/Game/FirstPersonArms/Animations/FP_Rifle_Fire.FP_Rifle_Fire"')
+   SlotAnimTracks(0)=(SlotName="Arms",AnimTrack=(AnimSegments=((AnimReference=/Script/Engine.AnimSequence'"/Game/FirstPersonArms/Animations/FP_Rifle_Fire.FP_Rifle_Fire"',AnimEndTime=0.266667))))
+   SequenceLength=0.266667
+   AnimNotifyTracks(0)=(TrackName="1",TrackColor=(R=0.500000,G=0.500000,B=0.500000,A=1.000000))
+   DataModel=/Script/Engine.AnimDataModel'"AnimationDataModel"'
+   Skeleton=/Script/Engine.Skeleton'"/Game/FirstPersonArms/Character/Mesh/SK_Mannequin_Arms_Skeleton.SK_Mannequin_Arms_Skeleton"'
+   ThumbnailInfo=/Script/UnrealEd.SceneThumbnailInfo'"SceneThumbnailInfo_1"'
+End Object
